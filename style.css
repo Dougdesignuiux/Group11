@@ -1,6 +1,10 @@
-.header .header-top {
-    background: #01d262 none repeat scroll 0 0;
+
+.header-top {
+    background: #272727 none repeat scroll 0 0;
     height: 50px;
+}
+.header {
+    background-color: #E4C81F;
 }
 
 .contact>p {
@@ -10,7 +14,7 @@
 }
 
 .header .header-top .contact p a {
-    color: #fff;
+    color: #E4C81F;
     font-size: 14px;
     font-weight: 400;
     text-decoration: none;
@@ -19,35 +23,41 @@
 
 .header .header-top .contact p span {
     margin-right: 45px;
+
+
 }
 
 .join-us>p {
-    background: #089549 none repeat scroll 0 0;
+    background: #ffffff; none repeat scroll 0 0;
     line-height: 50px;
     margin: 0;
     padding: 0;
 }
 
 .header .header-top .join-us p a {
-    background: #089549 none repeat scroll 0 0;
-    color: #fff;
+    background-color: #fff; none repeat scroll 0 0;
+
+    color: rgb(0, 0, 0);
     float: right;
     font-size: 15px;
     font-weight: 500;
     padding: 0 40px;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'open-sans', sans-serif;
 }
 
 .header .header-bottom .menu {
-    margin: 34px 0;
+    margin: 25px 0;
+    background-color: #E4C81F;
 }
 
 .header .header-bottom .menu ul {
     float: right;
+    background-color: #E4C81F;
 }
 
 .header .header-bottom .menu ul li a {
+  
     color: #000;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
@@ -55,29 +65,25 @@
     margin-right: 0;
     padding-left: 40px;
     padding-right: 0;
+    background-color: #E4C81F;
 }
 
 .nav>li>a:hover,
 .nav>li>a:focus {
     text-decoration: none;
-    background-color: transparent;
+    
 }
 
 .main-logo {
-    margin: 29px 0;
+    margin: 10px 0;
 }
 
 .main-logo>img {
     display: inline-block;
+    height: 75px;
 }
 
-.main-logo>h2 {
-    display: inline-block;
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 11px;
-    color: #01d262;
-}
+
 
 .carosal-area {
     background-image: url("img/carosal-bg.jpg");
@@ -606,7 +612,7 @@
 }
 
 .donors .donors_input {
-    background: #01d262 none repeat scroll 0 0;
+    background: #E4C81F none repeat scroll 0 0;
     float: left;
     height: 600px;
     text-align: center;
@@ -615,7 +621,7 @@
 
 .donors .donors_input h2,
 .donors .donors_image h2 {
-    color: #fff;
+    color: #272727;
     font-family: "Roboto", sans-serif;
     font-size: 22px;
     font-weight: 500;
@@ -628,7 +634,7 @@
 }
 
 .donors .donors_input p {
-    color: #fff;
+    color: #272727;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -648,7 +654,7 @@
 }
 
 .donors .donors_input h5 input {
-    background: #01d262 none repeat scroll 0 0;
+    background: #E4C81F none repeat scroll 0 0;
     border: 1px solid #fff;
     border-radius: 10px;
     color: #fff;
@@ -660,7 +666,7 @@
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
-    color: #fff;
+    color: #E4C81F;
     margin-right: 2%;
 }
 
@@ -691,7 +697,7 @@
 
 .donors .donors_input h4 select {
     width: 500px;
-    background: #01d262 none repeat scroll 0 0;
+    background: #E4C81F none repeat scroll 0 0;
     border: none;
     padding: 17px 20px;
     border-radius: 10px;
@@ -734,7 +740,7 @@
 }
 
 .donors .donors_image .item p span {
-    color: #01d262;
+    color: #f6f6f6;
 }
 
 .donors .donors_image .owl-theme .owl-nav {
@@ -744,8 +750,8 @@
 
 .donors .donors_image .owl-theme .owl-dots .owl-dot.active span,
 .donors .donors_image .owl-theme .owl-dots .owl-dot:hover span {
-    background: #01d262 none repeat scroll 0 0;
-    border: 1px solid #01d262;
+    background: #f6f6f6 none repeat scroll 0 0;
+    border: 1px solid #f6f6f6;
 }
 
 .donors .donors_image .owl-theme .owl-dots .owl-dot span {
@@ -822,9 +828,9 @@
 
 .volunteer_area .owl-theme .owl-nav i {
     background: #fff none repeat scroll 0 0;
-    border: 1px solid #01d262;
+    border: 1px solid #E4C81F;
     border-radius: 5px;
-    color: #01d262;
+    color: #E4C81F;
     font-size: 25px;
     height: 50px;
     overflow: hidden;
@@ -833,7 +839,7 @@
 }
 
 .volunteer_area .owl-theme .owl-nav i:hover {
-    background: #01d262;
+    background: #E4C81F;
     color: #fff;
 }
 
@@ -962,6 +968,7 @@
     background: #f5f5f5 none repeat scroll 0 0;
     height: 150px;
     padding: 60px 0;
+    margin-top: 100px;
 }
 
 .footer_carosal .footer_carosal_icon .item img {
@@ -969,115 +976,125 @@
 }
 
 .footer {
-    background: #2e2e2e;
-    padding-top: 80px
-}
-
-.footer .footer-charity-text {
-    max-width: 345px;
-}
-
-.footer .footer-charity-text h2 {
-    color: #fff;
-    font-family: "Roboto", sans-serif;
-    font-size: 25px;
-    font-weight: 700;
-    margin: 0 0 27px;
-}
-
-.footer .footer-charity-text p {
-    color: rgb(91, 91, 91);
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 30px;
-}
-
-.footer .footer-charity-text hr {
-    border-color: rgb(91, 91, 91);
-}
-
-.footer .footer-charity-text p i {
-    color: #5b5b5b;
-    font-size: 18px;
-    margin-right: 20px;
-}
-
-.footer-charity-text hr {
-    margin: 35px 0;
-}
-
-.footer .footer-text h3 {
-    color: #fff;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    margin: 8px 0 25px;
-}
-
-.footer .footer-text ul {
-    margin: 0;
-    padding: 0;
-}
-
-.footer .footer-text.one ul li {
-    left: 7px;
-    list-style: outside none none;
-    padding-left: 20px;
     position: relative;
+    margin-top: 45px;
+    padding-top: 90px;
+    background: #20212B;
 }
 
-.footer .footer-text.one ul li i {
-    color: rgb(91, 91, 91);
-    font-size: 15px;
-    left: -7px;
-    position: absolute;
-    top: 3px;
+.footer .footer-contact,
+.footer .footer-link,
+.footer .footer-newsletter {
+    position: relative;
+    margin-bottom: 45px;
+    color: #ffffff;
 }
 
-.footer .footer-text.one ul li a {
-    color: rgb(91, 91, 91);
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    text-decoration: none;
+.footer .footer-contact h2,
+.footer .footer-link h2,
+.footer .footer-newsletter h2 {
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FDBE33;
 }
 
-.footer .footer-text.two ul li a {
-    color: rgb(91, 91, 91);
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    text-decoration: none;
-}
-
-.footer .footer-text ul li {
+.footer .footer-link a {
+    display: block;
     margin-bottom: 10px;
+    color: #ffffff;
+    transition: .3s;
 }
 
-.footer .footer-text.two ul li a:hover,
-.footer .footer-text.one ul li a:hover,
-.footer .footer-text.one ul li i:hover,
-.footer .footer-charity-text p i:hover {
-    color: #c0c0c0;
+.footer .footer-link a::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
 }
 
-.footer .footer_bottom p {
-    background: #232323 none repeat scroll 0 0;
-    color: #cacaca;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    height: 75px;
-    line-height: 75px;
-    margin: 70px 0 0;
-    padding: 0;
-    text-align: center;
+.footer .footer-link a:hover {
+    color: #FDBE33;
+    letter-spacing: 1px;
 }
 
-.footer .footer_bottom p a {
-    color: #2ad880;
-    text-decoration: none;
+.footer .footer-contact p i {
+    width: 25px;
+}
+
+.footer .footer-social {
+    position: relative;
+    margin-top: 20px;
+}
+
+.footer .footer-social a {
+    width: 40px;
+    height: 40px;
+    padding: 6px 0;
+}
+
+.footer .footer-social a {
+    margin-top: 5px;
+}
+
+.footer .footer-newsletter form {
+    position: relative;
+    width: 100%;
+}
+
+.footer .footer-newsletter input {
+    margin-bottom: 15px;
+    height: 60px;
+    border: none;
+    border-radius: 0;
+}
+
+.footer .footer-newsletter label {
+    margin-top: 5px;
+    color: #777777;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.footer .footer-newsletter .btn.btn-custom {
+    width: 100%;
+    padding: 15px 0;
+}
+
+.footer .copyright {
+    padding: 0 30px;
+}
+
+.footer .copyright .row {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright p {
+    margin: 0;
+    color: #999999;
+}
+
+.footer .copyright .col-md-6:last-child p {
+    text-align: right;
+}
+
+.footer .copyright p a {
+    color: #ffffff;
+}
+
+.footer .copyright p a:hover {
+    color: #FDBE33;
+}
+
+@media (max-width: 767.98px) {
+    .footer .copyright p,
+    .footer .copyright .col-md-6:last-child p {
+        margin: 5px 0;
+        text-align: center;
+    }
 }
 
 .block-wrapper {
@@ -1113,9 +1130,9 @@
     font-size: 15px;
     font-weight: 400;
 }
-
+/* Line for the donations numbers strip (donors,students*/
 .block-wrapper .for-border {
-    border-left: 1px solid #2be587;
+    border-left: 1px solid  #ffffff;
 }
 
 .block-wrapper .for-border:first-child {
@@ -1127,4 +1144,66 @@
 }
 .footer_carosal_icon .owl-nav{
     display: none;
+}
+
+/* gallery img */
+
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
 }
