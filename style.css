@@ -147,7 +147,7 @@
 }
 
 .carosal-area .owl-theme .owl-nav [class*="owl-"] {
-    background: #1cb060 none repeat scroll 0 0;
+    background: #E4C81F none repeat scroll 0 0;
     border-radius: 50%;
     font-size: 25px;
     height: 50px;
@@ -368,7 +368,7 @@
 .donate_section h2 a {
     background: #fff none repeat scroll 0 0;
     border-radius: 30px;
-    color: #05ce68;
+    color: #E4C81F;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -510,8 +510,8 @@
     text-align: center;
 }
 
-.our_cuauses h2. {
-    color: #3c354e;
+.our_cuauses h2 {
+    color: #E4C81F;
     font-family: "Open Sans", sans-serif;
     font-size: 32px;
     font-weight: 700;
@@ -532,7 +532,7 @@
 
 .our_cuauses h2.borderes::before {
     background: #E4C81F none repeat scroll 0 0;
-    bottom: -13px;
+       bottom: -13px;
     content: "";
     height: 0px;
     left: 25%;
@@ -551,13 +551,13 @@
 .our_cuauses h2 a {
     background: #fff none repeat scroll 0 0;
     border-radius: 30px;
-    color: #05ce68;
+    color: #E4C81F;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: 500;
     padding: 15px 40px;
     text-decoration: none;
-    border: 1px solid #05ce68;
+    border: 1px solid #E4C81F;
 }
 
 .our_cuauses .our_cuauses_single .item {
@@ -621,7 +621,7 @@
 
 .donors .donors_input h2,
 .donors .donors_image h2 {
-    color: #272727;
+    color: #181818;
     font-family: "Open Sans", sans-serif;
     font-size: 22px;
     font-weight: 500;
@@ -630,11 +630,11 @@
 }
 
 .donors .donors_image h2 {
-    color: #000;
+    color: rgb(29, 29, 29);
 }
 
 .donors .donors_input p {
-    color: #272727;
+    color: #242424;
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -651,13 +651,14 @@
 .donors .donors_input h5 {
     margin: 65px auto 0;
     max-width: 500px;
+
 }
 
 .donors .donors_input h5 input {
     background: #E4C81F none repeat scroll 0 0;
-    border: 1px solid #fff;
+    border: 2px solid rgb(22, 22, 22);
     border-radius: 10px;
-    color: #fff;
+    color: rgb(22, 22, 22);
     padding: 17px 20px;
     width: 47%;
 }
@@ -674,15 +675,16 @@
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
     font-weight: 400;
-    color: #fff;
+    color: rgb(22, 22, 22);
     margin-left: 2%;
+    
 }
 
 .donors .donors_input input[type="submit"] {
-    background: #fff none repeat scroll 0 0;
+    background: rgb(22, 22, 22) none repeat scroll 0 0;
     border: 2px solid #E4C81F;
     border-radius: 10px;
-    color: #E4C81F;
+    color: #ffffff;
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
     font-weight: 500;
@@ -695,17 +697,19 @@
     text-align: center;
 }
 
+
+
 .donors .donors_input h4 select {
     width: 500px;
     background: #E4C81F none repeat scroll 0 0;
     border: none;
     padding: 17px 20px;
     border-radius: 10px;
-    border: 1px solid #fff;
+    border: 2px solid rgb(22, 22, 22);
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
     font-weight: 400;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .donors .donors_image {
@@ -723,7 +727,7 @@
     border-radius: 10px;
     margin: 0 auto 30px;
     width: 385px;
-    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 3px 10px 0px rgba(255, 255, 255, 0.15);
 }
 
 .donors .donors_image .item h3 {
@@ -740,7 +744,7 @@
 }
 
 .donors .donors_image .item p span {
-    color: #f6f6f6;
+    color: #000000;
 }
 
 .donors .donors_image .owl-theme .owl-nav {
@@ -750,12 +754,12 @@
 
 .donors .donors_image .owl-theme .owl-dots .owl-dot.active span,
 .donors .donors_image .owl-theme .owl-dots .owl-dot:hover span {
-    background: #f6f6f6 none repeat scroll 0 0;
-    border: 1px solid #f6f6f6;
+    background: #181818 none repeat scroll 0 0;
+    border: 1px solid #181818;
 }
 
 .donors .donors_image .owl-theme .owl-dots .owl-dot span {
-    border: 1px solid #7b7e80;
+    border: 1px solid #E4C81F;
     height: 12px;
     width: 12px;
 }
@@ -1214,7 +1218,7 @@
     text-align: center; 
    font-size: 16px;
     font-weight: 500;
-    color: #777777;
+    color: #ffffff;
     border-radius: 0;
     border: 2px solid #FDBE33;
     box-shadow: inset 0 0 0 0 #FDBE33;
