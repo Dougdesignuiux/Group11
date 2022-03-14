@@ -293,7 +293,9 @@
     background: #E4C81F;
     color: #fff;
 }
-
+. aboutMusic p {
+    text-align: center;
+}
 .donate_section {
     background-image: url("img/donate-bg.jpg");
     background-size: cover;
@@ -1012,7 +1014,7 @@
 .footer .footer-link a {
     display: block;
     margin-bottom: 10px;
-    color: #ffffff;
+    color: #20212B;
     transition: .3s;
 }
 
@@ -1066,10 +1068,12 @@
     font-size: 14px;
     letter-spacing: 1px;
 }
-
+/* btn news letter color */ 
 .footer .footer-newsletter .btn.btn-custom {
     width: 100%;
     padding: 15px 0;
+    color: rgb(255, 255, 255);
+    background-color: #20212B;
 }
 
 .footer .copyright {
