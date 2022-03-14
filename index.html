@@ -27,14 +27,165 @@
         <link href="css/style.css" rel="stylesheet"> -->
 
   <!-- LIB FOR new btn donation box-->
-  <!-- THIS LIBRARY IS IN CONFLIT WITH FOOTER ICONS - KEEP OFF FOR WHILE -
   <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
 
 
 <!-- NEW BTN STYLE FOR DONATION BOX-->
 
 <style>bodyBTN {
-@ -189,13 +189,12 @@ input::-webkit-inner-spin-button {
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #E4C81F;
+}
+
+.launch {
+    background-color: #272727;
+    border-color: #272727;
+    height: 50px;
+    width: 150px;
+       
+}
+
+
+
+.close {
+    font-size: 21px;
+    cursor: pointer
+}
+
+.modal-body {
+    height: 450px
+}
+
+.nav-tabs {
+    border: none !important
+}
+
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ffffff #ffffff #fff;
+    border-top: 3px solid rgb(206, 185, 0) !important
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    border: 1px solid transparent;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    border-top: 3px solid #eee;
+    font-size: 20px
+}
+
+.nav-tabs .nav-link:hover {
+    border-color: #e9ecef #ffffff #ffffff
+}
+
+.nav-tabs {
+    display: table !important;
+    width: 100%
+}
+
+.nav-item {
+    display: table-cell
+}
+
+.form-control {
+    border-bottom: 1px solid #eee !important;
+    border: none;
+    font-weight: 600
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #8bbafe;
+    outline: 0;
+    box-shadow: none
+}
+
+.inputbox {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%
+}
+
+.inputbox span {
+    position: absolute;
+    top: 7px;
+    left: 11px;
+    transition: 0.5s
+}
+
+.inputbox i {
+    position: absolute;
+    top: 13px;
+    right: 8px;
+    transition: 0.5s;
+    color: #E4C81F;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+}
+
+.inputbox input:focus~span {
+    transform: translateX(-0px) translateY(-15px);
+    font-size: 12px
+}
+
+.inputbox input:valid~span {
+    transform: translateX(-0px) translateY(-15px);
+    font-size: 12px
+}
+
+.pay button {
+    height: 47px;
+    border-radius: 37px
+}</style>
+
+
+<!-- END OF NEW DONATION BTN BOX-->
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <section class="header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8 col-xs-12">
+                            <div class="contact">
+                                <p><span class="phone"><a href="#">Phone: +1023546789</a></span><span class="email"><a href="#">Email: testdomain@gmail.com</a></span></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <!-- FIRST CONTAINER -->
+                            <div class="join-us">
+                                <p><a href="#">DONATE NOW</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- SECOND CONTAINER WITH MENU-->
+
+            <section class="header-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-12 col-xs-12">
+                            <a href="#">
+                                <div class="main-logo">
+                                    <img src="img/main-logo.png" alt="">
+                                   
+                                </div>
+                            </a>
+                        </div>
                         <div class="col-md-7 col-sm-12 col-xs-12">
                             <div class="menu">
                                 <ul class="nav navbar-nav">
@@ -45,58 +196,209 @@
                                     <li><a href="#">PORTFOLIO </a></li>
                                     <li><a href="#">BLOG</a></li>
                                     <li><a href="#">CONTACT</a></li>
-                                    <li><a href="#">SUPPORT US</a></li>
-                                    <li><a href="#">BUSINESS PARTNERS</a></li>
-                                    <li><a href="#">NEWS AND EVENTS </a></li>
-                                    
-                                    <li><a href="#">CONTACT US</a></li>
                                 </ul>
                             </div>
                         </div>
-@ -391,361 +390,361 @@
+                    </div>
+                </div>
+            </section>
+        </header>
 
-    <h1>Music Link Gallery</h1>
 
-    <p class="page-description text-center">Check our last </p>
-    <p class="page-description text-center">Check our last photos</p>
-    
-    <div class="tz-gallery">
+        
+        <section class="carosal-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="client owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="text">
+                                    <h3>Support Joshua’s dream of becoming a Violinist</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                                    <h5 class="white-button"><a href="#">DONATE NOW</a></h5>
+                                    <h5><a href="#">CONTACT US</a></h5>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="text">
+                                    <h3>Financial Help</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                                    <h5 class="white-button"><a href="#">DONATE NOW</a></h5>
+                                    <h5><a href="#">CONTACT US</a></h5>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="text">
+                                    <h3>Donate an Instrument</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                                    <h5 class="white-button"><a href="#">DONATE NOW</a></h5>
+                                    <h5><a href="#">CONTACT US</a></h5>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="text">
+                                    <h3>Become a Volunteer</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                                    <h5 class="white-button"><a href="#">DONATE NOW</a></h5>
+                                    <h5><a href="#">CONTACT US</a></h5>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="text">
+                                    <h3>CHILDREN NEED YOUR HELP</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                                    <h5 class="white-button"><a href="#">DONATE NOW</a></h5>
+                                    <h5><a href="#">CONTACT US</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="our_activity">
+            <h2>About Music Link Foundation</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-xs-12">
+                        <div class="single-Promo">
+                            <div class="promo-icon">
+                                <i class="material-icons">near_me</i>
+                            </div>
+                            <h2><a href="#">Mission</a></h2>
+                            <p>Any child who has musical potential deserves the opportunity to nurture this talent to its full extent. Many children lack the chance to receive music lessons due to financial need.The MusicLink Foundation reaches out to low income families by linking these students with professional music teachers willing to reduce their fee to make the lessons more affordable for the child. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="single-Promo">
+                            <div class="promo-icon">
+                                <i class="material-icons">favorite</i>
+                            </div>
+                            <h2><a href="#">Values</a></h2>
+                            <p>MusicLink began in 1992 as a program of the Virginia Music Teachers Association, seeking a way to offer private music instruction to students in need by linking them with teachers willing to provide low- or no-cost instruction for as long as students wish to learn. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="single-Promo">
+                            <div class="promo-icon">
+                                <i class="material-icons">dashboard</i>
+                            </div>
+                            <h2><a href="#">Board</a></h2>
+                            <p>Joanne Haroutounian, Ph.D. Founder of the MusicLink program and director of the program since 1992. International consultant in musical talent identification. Adjunct professor of piano and pedagogy (retired) at George Mason University for over 20 years. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <div class="row">
 
-            <div class="col-sm-12 col-md-4">
-                <a class="lightbox">
-                    <img src="img/bridge.jpg" alt="Bridge">
-                </a>
+        <section class="events_section_area">
+            <h2>Our Music Comnunity</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-xs-12">
+                        <div class="events_single">
+                            <img src="img/events_single_one.jpg" alt="">
+                            
+                            <div class="clear"></div>
+                            <h3>Student Spotlight</h3>
+                            <h6>Brandon Chen</h6>
+                            <p>Our first spotlight of the new year is shining on MusicLink student Brandon Chen, a freshman at David Douglas High School in Portland, Oregon. He began playing piano when he was eight and participated in group piano lesson for almost a year before his teacher recommended he take private lessons.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="events_single">
+                            <img src="img/events_single_two.jpg" alt="">
+                             <h3>Teacher Spotlight</h3>
+                            <h6>Patti Nyien</h6>
+                            <p>Patti Nyien has been a member of the Salt Creek Local Association of Music Teachers National Conference since 1987. She became Nationally Certified in 1992 and has been teaching in Westmont/Hinsdale, IL since 1980.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="events_single">
+                            <img src="img/events_single_three.jpg" alt="">
+                            <h3>Alumni Spotlight</h3>
+                            <h6>Erika Roderick</h6>
+                            <p>We are shining our alumni spotlight on Erika Roderick from Alexandria, Minnesota. This is the second time the spotlight has shone on Erika as she was in the student spotlight in May of 2016 while taking piano lessons at Diane Alveshere Studios. The MusicLink Foundation donated a keyboard to Erika which allowed her to continue playing when she otherwise would not have been able to.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox">
-                    <img src="img/park.jpg" alt="Park">
-                </a>
+        </section>
+       <!--  <section class="donate_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 for-padding">
+                        <h4>URGENT CAUSE</h4>
+                        <h3>Recent Environmental Disasters</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <div class="progress-text">
+                            <p class="progress-top">50%</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%"></div>
+                            </div>
+                            <p class="progress-left">Raised: $1200</p>
+                            <p class="progress-right">Goal: $2400</p>
+                        </div>
+                        <h2><a href="#">DONATE NOW</a></h2>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox">
-                    <img src="img/tunnel.jpg" alt="Tunnel">
-                </a>
-            </div>
-            <div class="col-sm-12 col-md-8">
-                <a class="lightbox">
-                    <img src="img/traffic.jpg" alt="Traffic">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox">
-                    <img src="img/coast.jpg" alt="Coast">
-                </a>
-            </div> 
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox">
-                    <img src="img/rails.jpg" alt="Rails">
-                </a>
-            </div>
+        </section> -->
 
+<!-- yellow strip donation numbers-->
+
+        <div class="block-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-6 for-border">
+                        <div class="block">
+                            <p><i class="material-icons">favorite</i></p>
+                            <p class="counter-wrapper"><span class="fb"></span></p>
+                            <p class="text-block">Donations</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6 for-border">
+                        <div class="block">
+                            <p><i class="material-icons">language</i></p>
+                            <p class="counter-wrapper"><span class="code"></span></p>
+                            <p class="text-block">Students Helped</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6 for-border">
+                        <div class="block">
+                            <p><i class="material-icons">person_add</i></p>
+                            <p class="counter-wrapper"><span class="bike"></span></p>
+                            <p class="text-block">Teachers Registered</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6 for-border">
+                        <div class="block">
+                            <p><i class="material-icons">people</i></p>
+                            <p class="counter-wrapper"><span class="coffee"></span></p>
+                            <p class="text-block">Instruments Donated</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+<!--end strip-->
+<!-- gallery -->
 
+<div class="container gallery-container">
+
+    <h1>OUR STUDENTS</h1>
+
+<<<<<<< HEAD
+    <p class="page-description text-center">Their stories</p>
+=======
+    <p class="page-description text-center">Check our last </p>
+>>>>>>> parent of 9b09da1 (Douglas update)
+    
+    <div class="testimonials">
+        <img class="stu-test" src="img/student_testimonials.png"
     </div>
 
 </div>
