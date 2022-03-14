@@ -607,12 +607,6 @@
     color: #fff;
 }
 
-/* COLOR OF ICONS IN >ABOUT MUSIC LINK FOUNDATION< */
-.material-icons {
-    color: #E4C81F;
-}
-
-/* END COLOR ICON */
 .donors {
     height: 600px;
 }
@@ -1217,7 +1211,7 @@
         border-radius: 0;
     }
 }
-/*SOCIAL MEDIA */
+
 
 .btn.btn-custom {
     padding: 12px 20px;
@@ -1232,9 +1226,6 @@
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
 }
-
-
-
 
 .btn.btn-custom:hover {
     color: #20212B;
