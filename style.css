@@ -614,6 +614,16 @@
     color: #E4C81F;
 }
 
+/* NEW ICONS ADDED TO YELLOW STRIP */
+
+
+.iconsYellowStrip {
+    height: 60px;
+    width: 60px;
+    margin-left: 105px;
+}
+
+
 /* END COLOR ICON */
 .donors {
     height: 600px;
@@ -991,7 +1001,7 @@
     position: relative;
     margin-top: 45px;
     padding-top: 90px;
-    background: #20212B;
+    background: #272727;
 }
 
 .footer .footer-contact,
@@ -1014,7 +1024,7 @@
 .footer .footer-link a {
     display: block;
     margin-bottom: 10px;
-    color: #20212B;
+    color: #272727;
     transition: .3s;
 }
 
@@ -1064,8 +1074,8 @@
 
 .footer .footer-newsletter label {
     margin-top: 5px;
-    color: #777777;
-    font-size: 14px;
+    color: #ffffff;
+    font-size: 12px;
     letter-spacing: 1px;
 }
 /* btn news letter color */ 
@@ -1073,7 +1083,7 @@
     width: 100%;
     padding: 15px 0;
     color: rgb(255, 255, 255);
-    background-color: #20212B;
+    background-color: #272727;
 }
 
 .footer .copyright {
@@ -1132,22 +1142,25 @@
 }
 
 .block-wrapper .block p.counter-wrapper span {
-    color: #fff;
+    color: rgb(22, 22, 22);
     font-family: "Open Sans", sans-serif;
     font-size: 35px;
     font-weight: 700;
+
 }
 
 .block-wrapper .block p.text-block {
-    color: #fff;
+    color: rgb(22, 22, 22);
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
     font-weight: 400;
+
 }
+
 /* Line for the donations numbers strip (donors,students*/
-.block-wrapper .for-border {
-    border-left: 1px solid  #ffffff;
-}
+/*.block-wrapper .for-border {
+    border-left: 1px solid  #222222;
+}*/
 
 .block-wrapper .for-border:first-child {
     border-left: 0px solid #fff
@@ -1241,7 +1254,7 @@
 
 
 .btn.btn-custom:hover {
-    color: #20212B;
+    color: #272727;
     box-shadow: inset 0 0 0 30px #FDBE33;
 }
 
@@ -1264,7 +1277,7 @@
     position: relative;
     margin-top: 45px;
     padding-top: 90px;
-    background: #20212B;
+    background: #272727;
 }
 
 .footer .footer-contact,
@@ -1337,8 +1350,9 @@
 
 .footer .footer-newsletter label {
     margin-top: 5px;
-    color: #777777;
-    font-size: 14px;
+
+    color: #ffffff;
+    font-size: 10px;
     letter-spacing: 1px;
 }
 
