@@ -37,9 +37,9 @@
 .header .header-top .join-us p a {
     background-color: #fff; none repeat scroll 0 0;
 
-    color: rgb(0, 0, 0);
+    color: rgb(20, 20, 20);
     float: right;
-    font-size: 15px;
+    font-size: 10px;
     font-weight: 500;
     padding: 0 40px;
     text-decoration: none;
@@ -60,8 +60,8 @@
   
     color: #000;
     font-family: "Open Sans", sans-serif;
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 12px;
+    font-weight: 500;
     margin-right: 0;
     padding-left: 40px;
     padding-right: 0;
@@ -162,18 +162,18 @@
 
 .owl-theme .owl-dots .owl-dot span {
     background: transparent none repeat scroll 0 0;
-    border: 1px solid #fff
+    border: 1px solid rgb(128, 128, 128)
 }
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #fff none repeat scroll 0 0;
+    background: rgb(255, 228, 77) none repeat scroll 0 0;
 }
 
 
 /*
 .wrapper section>h2 {
-    color: #3c354e;
+    color: #272727;
     font-family: "Open Sans", sans-serif;
     font-size: 32px;
     font-weight: 700;
@@ -185,7 +185,7 @@
 */
 
 .wrapper section>h2 {
-    color: #3c354e;
+    color: #272727;
     font-family: "Open Sans", sans-serif;
     font-size: 32px;
     font-weight: 700;
@@ -258,11 +258,11 @@
     font-family: "Open Sans", sans-serif;
     font-size: 22px;
     font-weight: 500;
-    color: #3c354e;
+    color: #272727;
 }
 
 .our_activity .single-Promo p {
-    color: #3c354e;
+    color: #272727;
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -452,7 +452,7 @@
 }
 
 .our_cuauses .our_cuauses_single .item h2 {
-    color: #3c354e;
+    color: #272727;
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -460,7 +460,7 @@
 }
 
 .our_cuauses .our_cuauses_single .item p {
-    color: #595959;
+    color: #272727;
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -618,6 +618,7 @@
 
 
 .iconsYellowStrip {
+    color: #272727;
     height: 60px;
     width: 60px;
     margin-left: 105px;
@@ -639,7 +640,7 @@
 
 .donors .donors_input h2,
 .donors .donors_image h2 {
-    color: #181818;
+    color: #272727;
     font-family: "Open Sans", sans-serif;
     font-size: 22px;
     font-weight: 500;
@@ -772,8 +773,8 @@
 
 .donors .donors_image .owl-theme .owl-dots .owl-dot.active span,
 .donors .donors_image .owl-theme .owl-dots .owl-dot:hover span {
-    background: #181818 none repeat scroll 0 0;
-    border: 1px solid #181818;
+    background: #272727 none repeat scroll 0 0;
+    border: 1px solid #272727;
 }
 
 .donors .donors_image .owl-theme .owl-dots .owl-dot span {
@@ -1195,7 +1196,7 @@
     text-align: center;
     max-width: 800px;
     margin: 25px auto;
-    color: #888;
+    color: #272727;
     font-size: 18px;
 }
 
