@@ -1594,17 +1594,21 @@
     position: relative;
     margin-top: 45px;
     padding-top: 90px;
+    margin-right: -10px;
     background: #272727;
 }
 
+.footer .footer-logo,
 .footer .footer-contact,
 .footer .footer-link,
 .footer .footer-newsletter {
     position: relative;
     margin-bottom: 45px;
     color: #ffffff;
+    padding-right: 15px;
 }
 
+.footer .footer-logo,
 .footer .footer-contact h2,
 .footer .footer-link h2,
 .footer .footer-newsletter h2 {
@@ -1636,6 +1640,18 @@
 
 .footer .footer-contact p i {
     width: 25px;
+}
+
+.footer .footer-logo{
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.footer .footer-logo img{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
 }
 
 .footer .footer-social {
@@ -1715,6 +1731,8 @@
     margin-right: auto;
     padding: 50px;
 }
+
+
 
 @media (max-width: 767.98px) {
     .footer .copyright p,
